@@ -19,24 +19,24 @@ It functions as a **global ad-blocker**, **VPN exit node**, and **private cloud 
 ## Benchmarks & Proof
 
 ### 1. Speed Test (Tunneling via Home Fiber)
-
-_> Achieved 368 Mbps download on mobile data by routing through the OnePlus 5._
-![Speed Test Result](speedtest.png)
+*> Achieved 368 Mbps download on mobile data by routing through the OnePlus 5.*
+<br>
+<img src="speedtest.png" width="250" alt="Speed Test Result">
 
 ### 2. Ad-Block Efficiency
-
-_> 96% Block Rate on third-party synthetic tests (TurtleCute)._
-![AdBlock Score](adblock.png)
+*> 96% Block Rate on third-party synthetic tests (TurtleCute).*
+<br>
+<img src="adblock.png" width="250" alt="AdBlock Score">
 
 ### 3. The "Engine Room" (AdGuard Dashboard)
-
-_> Real-time traffic monitoring showing thousands of queries filtered._
-![AdGuard Dashboard](dashboard.png)
+*> Real-time traffic monitoring showing thousands of queries filtered.*
+<br>
+<img src="dashboard.png" width="600" alt="AdGuard Dashboard">
 
 ### 4. Private Cloud Interface
-
-_> Full file management running on localhost, accessible anywhere._
-![File Browser](filebrowser.png)
+*> Full file management running on localhost, accessible anywhere.*
+<br>
+<img src="filebrowser.png" width="600" alt="File Browser">
 
 ## The Stack
 
