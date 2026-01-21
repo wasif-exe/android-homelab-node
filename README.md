@@ -16,6 +16,28 @@ It functions as a **global ad-blocker**, **VPN exit node**, and **private cloud 
 - **40GB Private Cloud:** Self-hosted `File Browser` accessible from anywhere in the world.
 - **Zero Cost:** Built entirely on existing hardware and open-source software.
 
+## Benchmarks & Proof
+
+### 1. Speed Test (Tunneling via Home Fiber)
+
+_> Achieved 368 Mbps download on mobile data by routing through the OnePlus 5._
+![Speed Test Result](speedtest.png)
+
+### 2. Ad-Block Efficiency
+
+_> 96% Block Rate on third-party synthetic tests (TurtleCute)._
+![AdBlock Score](adblock.png)
+
+### 3. The "Engine Room" (AdGuard Dashboard)
+
+_> Real-time traffic monitoring showing thousands of queries filtered._
+![AdGuard Dashboard](dashboard.png)
+
+### 4. Private Cloud Interface
+
+_> Full file management running on localhost, accessible anywhere._
+![File Browser](filebrowser.png)
+
 ## The Stack
 
 | Component          | Technology      | Purpose                                         |
@@ -32,7 +54,7 @@ It functions as a **global ad-blocker**, **VPN exit node**, and **private cloud 
 graph TD;
     Client[Nothing Phone 2a] -->|Tailscale Tunnel| Server[OnePlus 5 Node];
     Server -->|DNS Query| AdGuard[AdGuard Home];
-    AdGuard --|Block| Ads[Advertisers / Trackers];
-    AdGuard --|Allow| Internet[The Internet];
+    AdGuard -->|Block| Ads[Advertisers / Trackers];
+    AdGuard -->|Allow| Internet[The Internet];
     Server -->|Storage Access| Cloud[File Browser /sdcard];
 ```
