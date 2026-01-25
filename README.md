@@ -38,6 +38,11 @@ It functions as a **global ad-blocker**, **VPN exit node**, and **private cloud 
 <br>
 <img src="filebrowser.png" width="600" alt="File Browser">
 
+### 5. Custom Hardware Monitor (Python + Flask)
+*> Built a custom lightweight dashboard reading directly from Android kernel files (bypassing the OS API). Monitors real-time CPU thermals, RAM usage, and battery health with zero overhead.*
+<br>
+<img src="system_monitor.png" width="600" alt="Custom Python Dashboard">
+
 ## The Stack
 
 | Component          | Technology      | Purpose                                         |
