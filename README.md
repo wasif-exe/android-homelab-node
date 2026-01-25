@@ -57,7 +57,7 @@ It functions as a **global ad-blocker**, **VPN exit node**, and **private cloud 
 
 ```mermaid
 graph TD;
-    Client[Nothing Phone 2a] -->|Tailscale Tunnel| Server[OnePlus 5 Node];
+    Client[Devices] -->|Tailscale Tunnel| Server[OnePlus 5 Node];
     Server -->|DNS Query| AdGuard[AdGuard Home];
     AdGuard -->|Block| Ads[Advertisers / Trackers];
     AdGuard -->|Allow| Internet[The Internet];
